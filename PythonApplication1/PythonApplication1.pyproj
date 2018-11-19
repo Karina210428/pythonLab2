@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LSA.py">
+    <Compile Include="BOW.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LDA.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplication1.py" />
